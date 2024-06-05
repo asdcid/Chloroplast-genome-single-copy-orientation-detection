@@ -83,8 +83,8 @@ def loadFile(alignmentFile, minDistance, positions, outputFile):
     #output result
     
     if len(directions) == 0:
-        o.write('Haven't detected reads which are long enough to support the structures')
-        print('ERROR, Haven't detected reads which are long enough to support the structures')
+        o.write('Have not detected reads which are long enough to support the structures')
+        print('ERROR, have not detected reads which are long enough to support the structures')
     else:
         o.write('Structure_name\tnumber_of_supported_reads\n')
         for direction in directions:
